@@ -66,10 +66,10 @@ export const Signup = () => {
                             onChange={(event) => setPassword(event.target.value)}
                             required
                         />
-                        <label htmlFor="password" className="form-label">Password</label>
+                        <label htmlFor="password" className="form-label">Contraseña</label>
                     </div>
 
-                    <button className="btn btn-primary w-100 py-2" type="submit">Sign up</button>
+                    <button className="btn btn-primary w-100 py-2" type="submit">Registrese aquí</button>
                     <div className="mt-3 celeste">
                         <Link to="/login">¿Ya tiene cuenta? Ingrese aquí</Link>
                     </div>

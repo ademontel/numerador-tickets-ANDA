@@ -28,7 +28,7 @@ const Layout = () => {
                 <ScrollToTop>
                     <Routes>       
                         {/* Páginas sin Navbar */}
-                        <Route path="/" element={<Login />} />
+                        <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
 
                         {/* Páginas con Navbar */}
